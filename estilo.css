@@ -1,0 +1,255 @@
+header{
+    height: 103px;
+    width: 100%;
+    border-bottom: 1px solid #E6E6E6 ;
+    display: flex;
+    align-items: center;
+}
+
+
+@media (max-width: 600px) {
+	div {
+		width: 100%; /* Somente em telas menores que 600px, a largura passará a ser 100% em vez de 900px */
+	}
+    .top-bar{
+        width: 100%;
+        flex-direction: column;
+        position: fixed;
+        background-color: white;
+        top:0;
+        left: 0;
+        right: 0;
+        padding-left:0px;
+    }
+
+    .top-links-list{
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .all-news-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }   
+    
+    .g1-news-container{
+        flex-direction: column;
+        flex-wrap: wrap; 
+    }
+
+
+    .g1-news-container,.ge-gshow-news-container{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    body{
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+
+
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    letter-spacing: -0.045em;   
+}
+
+.top-bar{
+    display: flex;
+    padding-left: 16.2%;
+    align-items: center;
+    justify-content: left;
+}
+
+.top-links-list{
+    margin-left: 15px;
+    display: flex;
+    letter-spacing: -0,8px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+a:hover,h1:hover,h2:hover,h3:hover,h4:hover{
+    filter:brightness(1.25);
+}
+
+
+li{
+    margin: 12.5px;
+}
+
+#g1{
+    color:#A80001;
+}
+
+#ge{
+    color: #06AA48;
+}
+
+#gshow{
+    color:#FF7F00;
+}
+
+#tech{
+    color: #666666;
+}
+
+#videos{
+    color: #0769de;
+}
+
+.all-news-container{
+    display: flex;
+    width: 1145px;
+    margin-top: 25px;
+}
+
+.g1-news-container{
+    border-right: 1px solid #e6e6e6;
+    padding-right: 40px;
+    color: #CD150B;
+}
+
+.headline-container{
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.main-headline{
+    font-size: 52px;
+    font-weight: 700;
+    letter-spacing: -0.028em;
+    margin-bottom: 20px;
+}
+
+.secondary-headline{
+    font-size: 18px;
+    letter-spacing: -0.6px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+
+.g1-news-with-image{
+    display: flex;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 20px 0px;
+}
+
+#last-in-row{
+    padding-right: 0px;
+}
+
+.g1-single-news{
+    padding-right: 20px;
+}
+
+.g1-news-with-image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 4px;
+    width: 171px;
+    height: 96px;
+}
+
+.g1-news-title{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px 0px; 
+}
+
+.g1-news-brief{
+    font-size: 15px;
+    letter-spacing: -0.6px;
+}
+
+.g1-news-without-image{
+    display: flex;
+}
+
+.ge-gshow-news-container{
+    display: flex;
+}
+
+
+.ge-news-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-right: 1px solid #e6e6e6;
+    color: #06AA48;
+}
+
+.ge-single-news{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.ge-gshow-news-container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 4px;
+    width:235px;
+    height: 118px;
+}
+    
+
+.ge-news-title{
+    font-size: 21.5px;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.ge-news-brief{
+    font-size: 15px;
+    margin-bottom: 20px;    
+    width: 100%;
+    letter-spacing: -0.045em;
+}
+
+.gshow-news-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+    color: #ff7f00;
+}
+
+.gshow-news-title{
+    font-weight: 800;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.gshow-news-brief{
+    font-size: 15.5px;
+    margin: 20px 0px;    
+    font-weight: 400;
+}
+
+.gshow-single-news{
+    margin-bottom: 20px;
+}
+
